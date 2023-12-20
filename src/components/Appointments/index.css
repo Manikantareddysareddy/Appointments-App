@@ -1,0 +1,296 @@
+@media (max-width: 576px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container {
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 90%;
+    min-height: 70vh;
+  }
+  .card-container1 {
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  .main-heading {
+    font-family: 'Roboto';
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px;
+
+    color: #171f46;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .text-El {
+    width: 50vw;
+    height: 4vh;
+  }
+  .date-El {
+    width: 50vw;
+    height: 4vh;
+  }
+
+  .title-label {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+  .date-label {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+  .Add-Btn {
+    background-color: #8b5cf6;
+    font-family: 'Roboto';
+    font-weight: 500;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 7px;
+    width: 25%;
+    margin-top: 20px;
+  }
+  .text-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .date-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    height: 25vh;
+    margin-top: 60px;
+    width: 30vw;
+  }
+  .horizontal-line {
+    width: 90%;
+    border: 1px #b5b7c4 solid;
+  }
+  .list-container {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heading {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  .date-para {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .Appointment-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 2px #b5b7c4 solid;
+    border-radius: 8px;
+  }
+  .Starred-btn {
+    color: #9897f0;
+    border-style: solid;
+    border-color: #9897f0;
+    border-width: 2px;
+    border-radius: 20px;
+
+    height: 4vh;
+    background-color: transparent;
+    margin-right: 50px;
+  }
+  .star-image {
+    height: 3vh;
+    align-self: center;
+    margin-right: 10px;
+    width: 3vw;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .star-btn {
+    border: 0 none;
+    background-color: transparent;
+  }
+}
+@media (min-width: 577px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-container {
+    background-color: #ffffff;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 60%;
+    min-height: 70vh;
+  }
+  .card-container1 {
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+  }
+  .main-heading {
+    font-family: 'Roboto';
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 30px;
+
+    color: #171f46;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .text-El {
+    width: 20vw;
+    height: 4vh;
+  }
+  .date-El {
+    width: 20vw;
+    height: 4vh;
+  }
+
+  .title-label {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+  .date-label {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+  }
+  .Add-Btn {
+    background-color: #8b5cf6;
+    font-family: 'Roboto';
+    font-weight: 500;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 7px;
+    width: 20%;
+    margin-top: 20px;
+  }
+  .text-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .date-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-image {
+    height: 35vh;
+    margin-top: 30px;
+    width: 25vw;
+  }
+  .horizontal-line {
+    width: 90%;
+    border: 1px #b5b7c4 solid;
+  }
+  .list-container {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .heading {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .date-para {
+    color: #b5b7c4;
+    font-family: 'Roboto';
+    font-size: 10px;
+    margin-left: 20px;
+  }
+  .Appointment-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border: 1px #b5b7c4 solid;
+    border-radius: 8px;
+  }
+  .Starred-btn {
+    color: #9897f0;
+    border-style: solid;
+    border-color: #9897f0;
+    border-width: 2px;
+    border-radius: 20px;
+    width: 10%;
+    height: 4vh;
+    background-color: transparent;
+    margin-right: 50px;
+  }
+  .star-image {
+    height: 4vh;
+    align-self: center;
+    margin-right: 10px;
+    width: 2vw;
+  }
+  .ul-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .star-btn {
+    border: 0 none;
+    background-color: transparent;
+  }
+}
